@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".setting.InternetSettingActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/server_ip_address"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:fontFamily="@font/geomanist"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/server_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_background"
+        android:padding="10dp"
+        android:text=""
+        app:fontFamily="@font/geomanist"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/server_port"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:fontFamily="@font/geomanist"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/server_port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_background"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:text=""
+        app:fontFamily="@font/geomanist"
+        android:textColor="@color/black">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:id="@+id/btn_connect"
+            android:layout_width="120dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:background="@drawable/main_btn_back"
+            android:onClick="saveServerInfo"
+            android:orientation="horizontal"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/colorAccent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/save"
+                app:fontFamily="@font/geomanist"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">IQ LOGISTICS</string>
+    <string name="send_data_via_bluetooth">Send data via Bluetooth</string>
+    <string name="settings">Settings</string>
+    <string name="server_ip_address">Server IP Address</string>
+    <string name="server_port">Server Port</string>
+    <string name="save">Save</string>
+    <string name="locker_number">Locker Number</string>
+    <string name="tracking_number">Tracking Number</string>
+    <string name="bluetooth_setting">Bluetooth Setting</string>
+    <string name="internet_setting">Internet Setting</string>
+    <string name="does_not_have_bluetooth">This Device Does not Support Bluetooth</string>
+    <string name="no_paired_devices">No Paired Bluetooth Devices Found</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="send_data_via_internet">Send data via Internet</string>
+    <string name="connect_via_bluetooth">Connect via Bluetooth</string>
+    <string name="inputs_image">Inputs / Image</string>
+    <string name="inputs">Inputs</string>
+    <string name="select_mode">Select Mode</string>
+    <string name="description">Description</string>
+    <string name="save_picture">Save Picture</string>
+    <string name="take_picture">Take Picture</string>
+</resources>
